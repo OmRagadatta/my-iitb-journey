@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Om's IITB Journey</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-text">Welcome to Om's VibeVerse...<br/>Loading Memories Across Space 🤯</div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1>My IITB Journey</h1>
+      <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#timeline">Milestones</a></li>
+        <li><a href="#learnings">Growth</a></li>
+        <li><a href="#quotes">Quotes</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#interactive">Fun</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section id="intro">
+    <h2>Hi, I'm Om 👋</h2>
+    <p>Mechanical Engineering @ IIT Bombay, CS Minor. Known for being the one always with earphones, vibing to music under the night sky 🌙</p>
+  </section>
+
+  <!-- Timeline -->
+  <section id="timeline">
+    <h2>Key Moments</h2>
+    <div class="slideshow-container">
+
+      <div class="slide fade" style="background-image: url('images/techfest_dec2022.jpg');">
+        <div class="slide-text">1st year: Under Techfest lights with friends</div>
+      </div>
+      <div class="slide fade" style="background-image: url('images/mycapture7.jpg');">
+        <div class="slide-text">2nd year: A peaceful pause by the lake near Padmavati temple</div>
+      </div>
+      <div class="slide fade" style="background-image: url('images/myworkplace.jpg');">
+        <div class="slide-text">3rd year: Where ideas took shape — my creative corner</div>
+      </div>
+      <div class="slide fade" style="background-image: url('images/icamcvolunteer.jpg');">
+        <div class="slide-text">3rd year: Volunteering at ICAMC - exploring fun and creative things</div>
+      </div>
+      <div class="slide fade" style="background-image: url('images/sameerhill.jpg');">
+        <div class="slide-text">3rd year: The first Sameer Hill trek after over 2.5 yrs stay in campus</div>
+      </div>
+      <div class="slide fade" style="background-image: url('images/roadpainting2025.jpg');">
+        <div class="slide-text">3rd year: Road painting with my friend - the best fun memory</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+  </section>
+
+  <!-- Learnings -->
+  <section id="learnings">
+    <h2>Growth & Learning</h2>
+    <p>Started off as an introvert, learned to be expressive through out my 3 years journey by immersing myself in various activities.</p>
+    <p>From C, Python to Unity XR, I learned to express through both code and design. Through clubs like E-Cell, and projects in ML, CAD, and VR, I transformed ideas into impact.</p>
+  </section>
+
+  <!-- My Comfort Quotes -->
+  <section id="quotes">
+    <h2>Words That Vibe With Me 🎶</h2>
+    <div class="quote-box" id="quote-box"></div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="images/latenightwalk.jpg" alt="latenightwalk" />
+      <img src="images/mycapture3.jpg" alt="mycapture3" />
+      <img src="images/mycapture5.jpg" alt="mycapture5" />
+      <img src="images/mycapture9.jpg" alt="mycapture9" />
+      <img src="images/mycapture10.jpg" alt="mycapture10" />
+      <img src="images/mycapture.jpg" alt="mycapture" />
+      <img src="images/mycapture2.jpg" alt="mycapture2" />
+      <img src="images/mycapture4.jpg" alt="mycapture4" />
+      <img src="images/mycapture6.jpg" alt="mycapture6" />
+      <img src="images/temple.jpg" alt="temple" />
+      <img src="images/templevisit.jpg" alt="templevisit" />
+      <img src="images/mycapture8.jpg" alt="mycapture8" />
+    </div>
+  </section>
+
+  <!-- Interactive -->
+  <section id="interactive">
+    <h2>Memory Vault 🔓</h2>
+    <button onclick="revealMemory()">Click to Unlock a Memory</button>
+    <p id="memory"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>🏢 <a href="https://www.iitb.ac.in">IIT Bombay</a> | 🌐 <a href="https://www.linkedin.com/in/omragadatta/">Linkedin</a> | 💻 <a href="https://github.com/OmRagadatta">GitHub</a></p>
+    <p>&copy; 2025 Om Ragadatta Thota | Always Keep Learning</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
